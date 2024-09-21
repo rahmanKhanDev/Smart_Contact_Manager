@@ -1,5 +1,5 @@
 # Smart_Contact_Manager(scm)
-This is a contact manager project under developement using new spring boot features.
+This is a contact manager project under development using new spring boot features.
 
 Features will be:
 
