@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+</head>
+<body>
+    <h1>This is services page</h1>
+    <hr>
+     <!-- using fragments-->
+   <div class="host-div" th:replace="~{base :: parent(~{::.section3})}">
+    <section>
+        <h2>Dynamic content</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus, accusamus et porro dignissimos enim dolor eos reiciendis aut facere eaque?</p>
+        <button style="color:black">Click Me</button>
+
+    </section>
+    <section id="section2">
+        <h2>Dynamic content</h2>
+        <p>This is second section </p>
+        <button style="color:black">Click Me</button>
+    </section>
+    <section class="section3">
+        <h2>Dynamic content</h2>
+        <p>This is third section </p>
+        <button style="color:black">Click Me</button>
+    </section>
+
+
+   </div>
+</body>
+</html>
